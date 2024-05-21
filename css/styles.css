@@ -58,8 +58,8 @@ button {
     letter-spacing: 0.02em;
 }
 
-.header-item:hover,
-.header-item:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
 }
 
