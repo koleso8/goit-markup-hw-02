@@ -28,20 +28,6 @@ button {
 
 /* #region COMPONENTS */
 
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
-
 /* #endregion COMPONENTS */
 
 /* #region HEADER */
@@ -65,16 +51,18 @@ button {
 .header-list {
 }
 
-.header-link:hover,
-.header-link:focus {
-    color: #404bbf;
-}
 .header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.header-item:hover,
+.header-item:focus {
+    color: #404bbf;
+}
+
 .address {
 }
 .address-list {
@@ -230,6 +218,11 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo .span-logo {
+    color: #f4f4fd;
 }
 
 .footer-text {
