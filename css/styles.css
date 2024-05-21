@@ -28,7 +28,7 @@ button {
 
 /* #region COMPONENTS */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -40,7 +40,7 @@ button {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 /* #endregion COMPONENTS */
 
@@ -54,18 +54,19 @@ button {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 .span-logo {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .header-list {
 }
 
-.header-item:hover,
-.header-item:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
 }
 .header-item {
@@ -86,8 +87,8 @@ button {
     color: #434455;
 }
 
-.address-item:hover,
-.address-item:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
 
@@ -101,7 +102,7 @@ button {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -155,9 +156,10 @@ button {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .tealm-list {
 }
@@ -190,9 +192,10 @@ button {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -224,7 +227,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
